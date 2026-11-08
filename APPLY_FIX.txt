@@ -1,0 +1,20 @@
+FITNESS POWER - React 19 / Next.js 16 / next-themes console warning fix
+
+Only files under src/ are meant to overwrite existing files.
+No database, credentials, package.json, or node_modules changes.
+
+1. Stop npm run dev (Ctrl+C).
+2. Extract this ZIP into your existing project folder, preserving folder paths.
+   PowerShell example (run from fitness-power folder):
+   Expand-Archive -Path "$HOME\Downloads\fitness-power-theme-fix.zip" -DestinationPath . -Force
+3. Remove old Next.js cache (optional but recommended):
+   Remove-Item -Recurse -Force .next -ErrorAction SilentlyContinue
+4. npm run typecheck
+5. npm run dev
+6. Reload http://localhost:3000, then toggle light/dark mode.
+
+This workaround keeps the SSR theme-initialization script executable, while
+making a client-created copy inert. Header toggle icon markup also stays
+stable across hydration.
+
+Source: https://github.com/pacocoursey/next-themes/issues/385

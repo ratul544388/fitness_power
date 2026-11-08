@@ -1,0 +1,11 @@
+member_no,name,phone,email,gender,plan,start_date,expire_date,status,address,notes
+,Rafiul Sample,+8801000990000,fp.sample.import.001@example.com,male,FP Demo - Monthly,2026-10-22,2026-11-21,frozen,"Fictional example, Dhaka",[FITNESS_POWER_SAMPLE] Imported CSV test entry
+,Nusrat Example,+8801000990001,fp.sample.import.002@example.com,female,FP Demo - Quarterly,2026-09-25,2026-12-24,active,"Fictional example, Dhaka",[FITNESS_POWER_SAMPLE] Imported CSV test entry
+,Tanvir Test,+8801000990002,fp.sample.import.003@example.com,male,FP Demo - Half Year,2026-09-10,2027-03-09,active,"Fictional example, Dhaka",[FITNESS_POWER_SAMPLE] Imported CSV test entry
+,Ayesha Fiction,+8801000990003,fp.sample.import.004@example.com,male,FP Demo - Annual,2026-07-22,2027-07-22,active,"Fictional example, Dhaka",[FITNESS_POWER_SAMPLE] Imported CSV test entry
+,Arman Mock,+8801000990004,fp.sample.import.005@example.com,female,FP Demo - Student,2026-10-25,2026-11-24,active,"Fictional example, Dhaka",[FITNESS_POWER_SAMPLE] Imported CSV test entry
+,Nabila Test,+8801000990005,fp.sample.import.006@example.com,male,FP Demo - Premium,2026-10-10,2027-01-08,frozen,"Fictional example, Dhaka",[FITNESS_POWER_SAMPLE] Imported CSV test entry
+,Hasan Example,+8801000990006,fp.sample.import.007@example.com,male,FP Demo - Monthly,2026-10-22,2026-11-21,active,"Fictional example, Dhaka",[FITNESS_POWER_SAMPLE] Imported CSV test entry
+,Mim Sample,+8801000990007,fp.sample.import.008@example.com,female,FP Demo - Quarterly,2026-09-25,2026-12-24,active,"Fictional example, Dhaka",[FITNESS_POWER_SAMPLE] Imported CSV test entry
+,Sajid Test,+8801000990008,fp.sample.import.009@example.com,male,FP Demo - Half Year,2026-09-10,2027-03-09,active,"Fictional example, Dhaka",[FITNESS_POWER_SAMPLE] Imported CSV test entry
+,Tithi Fiction,+8801000990009,fp.sample.import.010@example.com,male,FP Demo - Annual,2026-07-22,2027-07-22,active,"Fictional example, Dhaka",[FITNESS_POWER_SAMPLE] Imported CSV test entry

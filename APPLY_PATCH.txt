@@ -1,0 +1,11 @@
+FITNESS POWER SETUP PATCH
+
+Apply to an EXISTING project (do not overwrite your real .env.local):
+Extract this archive into the root of the fitness-power directory, preserving folders.
+Only scripts/bootstrap.ts, scripts/seed.ts, drizzle.config.ts and .env.example change.
+
+In .env.local set DATABASE_URL (Neon pooled URL), and optionally DATABASE_DIRECT_URL (Neon direct URL, preferred for migrations).
+Then run npm run db:push; npm run db:bootstrap; npm run db:seed.
+On success, delete BOOTSTRAP_OWNER_PASSWORD from .env.local and restart npm run dev.
+
+The patch intentionally does not contain an .env.local file or any secrets.
