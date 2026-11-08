@@ -193,7 +193,7 @@ async function main() {
       const prevStart = monthOffset(prevEnd, -duration);
       const oldId = sampleId(3, ++periodSeq);
       membershipRows.push({
-        id: oldId, memberId: mid, planId: plan.id, startsOn: prevStart, expiresOn: prevEnd,
+        id: oldId, memberId: mid, planId: plan.id!, startsOn: prevStart, expiresOn: prevEnd,
         planPrice: plan.price, admissionFee: 300, discount: 0, type: "join",
         note: TAG, createdAt: beforeNow(prevStart, 9),
       });
@@ -210,7 +210,7 @@ async function main() {
     const discount = i % 7 === 0 ? 150 : 0;
     const total = plan.price + fee - discount;
     membershipRows.push({
-      id: currentId, memberId: mid, planId: plan.id, startsOn, expiresOn,
+      id: currentId, memberId: mid, planId: plan.id!, startsOn, expiresOn,
       planPrice: plan.price, admissionFee: fee, discount, type: hasRenewal ? "renewal" : "join",
       note: TAG, createdAt: beforeNow(startsOn, 9),
     });
